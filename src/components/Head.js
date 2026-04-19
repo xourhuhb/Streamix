@@ -42,7 +42,7 @@ const Head = () => {
           src="https://static.vecteezy.com/system/resources/previews/021/190/402/non_2x/hamburger-menu-filled-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg"
           alt="menu"
         />
-        <img className="h-12 -mt-1" src={AppLogo} alt="logo" />
+        <img className="h-12 mt-1" src={AppLogo} alt="logo" />
       </div>
 
       <div className="col-span-10 flex items-center">
