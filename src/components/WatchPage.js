@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { closeMenu } from "../utlis/appSlice";
-import { useParams, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 
 const WatchPage = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   const watchId = searchParams.get("v");
 
